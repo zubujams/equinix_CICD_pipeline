@@ -67,3 +67,17 @@ Follow the [Terraform Metal Quickstart Guide](https://deploy.equinix.com/develop
            }
        }
    }
+
+### 5. Install and Configure Ansible
+
+**Installation**: Install Ansible on your control machine, which could be your local machine or a VM that you use for administration. Use the following command to install Ansible:
+
+
+#### Create Inventory
+
+Ansible uses an inventory to track all the servers it can operate on. You can create this inventory file manually or generate it dynamically. A static inventory file can be used but it's better to configure a dynamic file.
+[](https://docs.ansible.com/ansible/latest/getting_started/index.html)
+
+To create a dynamic inventory, integrate Terraform outputs with Ansible. This approach automatically updates your inventory based on the infrastructure currently managed by Terraform.
+
+#### Create Ansible playbooks to manage your servers
