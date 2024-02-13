@@ -1,5 +1,8 @@
 # CI/CD Pipeline Using Equinix Metal, Terraform, Jenkins, and Ansible
 
+![Screenshot 2024-02-13 at 2 03 26 PM](https://github.com/zubujams/equinix_CICD_pipeline/assets/52971863/6c97c30b-4825-4a56-94ba-b9903220e446)
+
+
 This guide outlines the process of setting up a CI/CD pipeline leveraging Equinix Metal, Terraform for infrastructure as code (IaC), Jenkins for continuous integration and delivery, and Ansible for configuration management.
 
 ## Prerequisites
